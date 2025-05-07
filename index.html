@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--make sure that you set the lang attribute in the html tag to 'en' to indicate english-->
+<html lang="en">
+
+<head>
+	<!-- this is the header section.  it contains metadata about the site that is not displayed on the page -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Flexbox to HTML1</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" /> 
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<div class="title">
+				<h1>Dr. Tupper's Page</h1>
+			</div>
+			<div class="icons">
+				<a class="icon" href="https://sites.google.com/cpsd.us/drmalindatupper?usp=sharing"><ion-icon name="globe-outline"></ion-icon></a>
+				<a class="icon" href="mailto:mtupper@cpsd.us" id="contact"><ion-icon name="mail-outline" ></ion-icon></a>
+			</div>
+		</header>
+		<nav>
+				<a class="fancy" href="#about">About</a>
+				<a class="fancy" href="#career">Career</a>
+				<a class="fancy" href="#foods">Foods</a>
+				<a class="fancy" href="#hobbies">Hobbies</a>
+				<a class="fancy" href="#contact">Contact</a>
+		</nav>
+		<main>
+			<section id="about">
+				<h2>All About Me</h2> 
+				<p>I am originally from the midwestern part of the United States. I grew up on a farm in rural Ohio and went to college in Illinois at Northwestern University. Go Cats! I graduated from Northwestern with a BS/MS degree in Materials Science and Engineering.
+				</p>
+				<p>I left the midwest for the east coast in 1997 to attend graduate school at MIT. I again majored in Materials Science and Engineering. My research there focused on using focused electric fields to assemble micron-scale surface mount electronic components.
+				</p>
+				<p>When I finished graduate school, I worked first in the biomedical division at Draper, where I helped develop biotoxin detectors. I also got to work on developing an artificial liver and a variety of biosensors. I left Draper eventually to help start a small biotech company that was using a new battery technology to build a simple drug delivery pump. While I was there, I started teaching part time at Tufts University, where I got hooked on teaching.
+				</p>
+			</section>
+			<section id="career">
+				<div class="text">
+					<h3>Career Aspirations</h3>
+					<p>I hope to remain a classroom teacher for the rest of my career. I would eventually like to develop additional flexible curriculum that can be supplementary to the physical classroom. 
+						I would like to implement enough supports to allow students to work at their own pace, so that the curriculum is flexible enough to meet all students' needs.  I hope to give
+						students the skills to become independent learners so that they can continue to develop their knowledge beyond our classroom.
+						I hope to incorporate more statistical analysis and/or bioinformatics and data science in our program.
+					</p>
+				</div>
+				<div class="pic">
+					<img src="images/data_science.png" alt="data">
+				</div>
+				
+			</section>
+			<section id="foods">
+				<div class="pic">
+					<img src="images/margherita_pizza.jpg" alt="pizza">
+				</div>
+				<div class="text">
+					<h3>My Favorite Foods</h3>
+					<ol>
+						<li>Pizza</li>
+						<li>Pad Thai</li>
+						<li>Sushi</li>
+					</ol>
+				</div>
+				
+			</section>
+			
+			<section id="hobbies">
+				<h3>My Hobbies</h3>
+				<ul>
+					<li>Hiking</li>
+					<li>Snowboarding</li>
+					<li>Camping</li>
+				</ul>
+				<img src="images/young-woman-snowboarding.jpg" alt="snowboarding" width="175" height="220"><br>
+	
+			</section>
+
+		</main>
+		
+		<footer>
+			<ion-icon name="mail-outline" class="icon"></ion-icon>
+			<a href="mailto:mtupper@cpsd.us" id="contact">Send email</a>
+			<!-- help Phil showed me how to include the language attribute -->
+		</footer>
+		
+
+	</div>
+	<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  </body>
+</html>
